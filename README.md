@@ -39,7 +39,7 @@
 
   <p align="center">
     <a href="https://discord.com/users/497477950065737738">
-        <img title="Carbon server discord" alt="Carbon discord" src="https://discord.c99.nl/widget/theme-4/497477950065737738.png"/>
+        <img title="Carbon server discord" alt="Carbon discord" src="https://discord.c99.nl/widget/theme-1/497477950065737738.png"/>
     </a>
 </p> 
  
