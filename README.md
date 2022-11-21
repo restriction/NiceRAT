@@ -36,12 +36,6 @@
 ###### - The default is [Insert] , but you can manually switch to the button you want.
 
 ---
-
-  <p align="center">
-    <a href="https://discord.com/users/497477950065737738">
-        <img title="Carbon server discord" alt="Carbon discord" src="https://discord.c99.nl/widget/theme-1/497477950065737738.png"/>
-    </a>
-</p> 
  
 ### 💬 Discord ・[Carbon Community](https://discord.gg/DfNCWhFmbv) 
 
