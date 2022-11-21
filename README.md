@@ -72,7 +72,7 @@ https://user-images.githubusercontent.com/94861415/190626299-a8dd2087-b45e-46aa-
 
 ##   <p align="center">  Copyright © 2022 
 
-##### <p align="center">  CARBON COMMUNITY / JOIN DISCORD [CLOUD PROJECT](https://discord.gg/DfNCWhFmbv)
+##### <p align="center">  CARBON COMMUNITY / JOIN DISCORD [CARBON COMMUNITY](https://discord.gg/DfNCWhFmbv)
 
 
 
