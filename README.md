@@ -31,7 +31,6 @@
 - Added skins from SS.3 - present.
 #### Scanner
 - When enabled There will be a skin notification when the aim lock skill hits the player.
-##### - ❌ Not very safe I probably wouldn't recommend you to use it.
 - Open - Close Menu
 ###### - The default is [Insert] , but you can manually switch to the button you want.
 
