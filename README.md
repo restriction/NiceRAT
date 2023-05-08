@@ -9,7 +9,7 @@
 ## ⚙ How to Setup
 - You need to **create** a [Drver Kernel](https://www.youtube.com/watch?v=xh5cCUuQfL8&t=1090s&ab_channel=EthanEDITS) and when it's done you put the Source in the Driver folder.
 - It's time for fun / use it at your own risk 
-- Other question & help / [Discord Server](https://discord.gg/DfNCWhFmbv)
+- Other question & help / [Discord Server](https://discord.gg/confirm)
 ###### ❌ You cannot use public drivers like mapper because they are old versions. I recommend you to create your own will be the best. 
 - We set Source to not re-use the driver. That's why we let you create it yourself.
    
@@ -36,7 +36,7 @@
 
 ---
  
-### 💬 Discord ・[Carbon Community](https://discord.gg/DfNCWhFmbv) 
+### 💬 Discord ・[Carbon Community](https://discord.gg/confirm) 
 
 ### 🛒〢 Private Cheat.
 `PRIVATE CHEATING | SPOOFER | SOURCE CODE | DRIVER | ETC`
@@ -65,7 +65,7 @@ https://user-images.githubusercontent.com/94861415/190626299-a8dd2087-b45e-46aa-
 
 ##   <p align="center">  Copyright © 2022 
 
-##### <p align="center">  CARBON COMMUNITY / JOIN DISCORD [CARBON COMMUNITY](https://discord.gg/DfNCWhFmbv)
+##### <p align="center">  CARBON COMMUNITY / JOIN DISCORD [CARBON COMMUNITY](https://discord.gg/confirm)
 
 
 
