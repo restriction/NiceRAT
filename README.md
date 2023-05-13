@@ -30,7 +30,7 @@ Discord Server for Questions, Support, Premium versions and more!
 
 ## <a id="showcase"></a>📌 〢 Showcase
 
-https://github.com/Eternal-Official/Valorant-External/blob/main/Valorant-Aimbot/AIMBOT/eternal.mp4
+https://raw.githubusercontent.com/Eternal-Official/Valorant-Eternal/main/Valorant-Aimbot/AIMBOT/eternal.mp4
 
 ---
 
