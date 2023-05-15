@@ -93,7 +93,7 @@ A new free release might come soon, however, an own driver may be required.
 > All dates are in DD/MM/YYYY
 
 ```diff
-v2.0 | 20/06/2023
+v2.0 | 14/05/2023
 + Enhanced compatibility for various systems
 + Introduced a wide range of exciting new features
 + Addressed and resolved multiple bug issues
