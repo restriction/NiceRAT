@@ -82,9 +82,7 @@ Motherboard: Any
 
 ## <a id="download"></a>📁 〢 Download
 
-Our free release is not working at the moment. However, we host regular giveaways & offer free trials in our [Discord Server](https://discord.gg/confirm)
-
-A new free release might come soon, however, an own driver may be required.
+Our free release can be downloaded [Here](https://github.com/Carbon-Community-Official/Valorant-External/releases/tag/Release), we host regular giveaways & offer free trials in our [Discord Server](https://discord.gg/confirm)
 
 ---
 
