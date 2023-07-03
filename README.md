@@ -91,42 +91,8 @@ Our free release can be downloaded [Here](https://github.com/Carbon-Community-Of
 > All dates are in DD/MM/YYYY
 
 ```diff
-v2.0 | 14/05/2023
-+ Enhanced compatibility for various systems
-+ Introduced a wide range of exciting new features
-+ Addressed and resolved multiple bug issues
-
-v1.6 | 10/04/2023
-+ Resolved several bugs for improved performance and stability
-
-v1.5 | 02/03/2023
-+ Conducted bug fixes to enhance overall functionality
-
-v1.4 | 15/02/2023
-+ Implemented updated drivers for better device compatibility
-+ Integrated advanced aimbot technology for enhanced precision
-+ Acknowledged performance lag and actively working on optimization
-+ Resolved various bugs for smoother operation
-
-v1.3 | 05/02/2023
-+ Revamped user interface for a fresh and intuitive look
-+ Streamlined functions for improved usability
-+ Fixed bugs to ensure optimal performance
-
-v1.2.2 | 20/12/2022
-+ Rectified invalid links to provide accurate information
-+ Updated header for better navigation
-+ Implemented code improvements for increased efficiency
-+ Addressed and resolved several bugs
-
-v1.2 | 01/12/2022
-+ Added Spinbot functionality for more dynamic gameplay
-+ Included adjustable Spinbot speed for customized experience
-+ Introduced Import/Export .json settings for seamless configuration
-+ Integrated a manual inject button for simplified usage
-+ Resolved a bug that caused extended save times
-
-v1.1 | 15/11/2022
+v1.0 | 03/07/2023
++ Official release of a stable build for public use
 + Incorporated Aimbot FOV Circle for improved targeting
 + Added Aimbot FOV Circle Size adjustment for personalized settings
 + Enhanced Aimbot Smoothness for smoother aiming transitions
@@ -137,9 +103,6 @@ v1.1 | 15/11/2022
 + Updated user interface for a more refined appearance
 + Fixed a bug that caused Tracers to display inaccurately
 + Rectified an issue where valid TIDs were incorrectly flagged as invalid
-
-v1.0 | 30/10/2022
-+ Official release of a stable build for public use
 ```
 
 ---
