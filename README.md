@@ -3,6 +3,7 @@
 <div align="left">
 <a href="https://github.com/"><img src="https://img.shields.io/github/stars/Eternal-Official/Valorant-Eternal?color=00dd00&style=for-the-badge"></a>
 <a href="https://discord.gg/luno"><img src="https://user-images.githubusercontent.com/89605624/210242064-bb10e448-f53b-40b9-b413-aae180460595.png" width="5" height="1"/></a>
+<a href="https://discord.gg/luno"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=ffffff"></a>
 </div>
 
 ---
