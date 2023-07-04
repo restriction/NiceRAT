@@ -2,8 +2,8 @@
 
 <div align="left">
 <a href="https://github.com/"><img src="https://img.shields.io/github/stars/Eternal-Official/Valorant-Eternal?color=00dd00&style=for-the-badge"></a>
-<a href="https://discord.gg/luno"><img src="https://user-images.githubusercontent.com/89605624/210242064-bb10e448-f53b-40b9-b413-aae180460595.png" width="5" height="1"/></a>
-<a href="https://discord.gg/luno"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=ffffff"></a>
+<a href="https://discord.gg/2AZjNXvZBc"><img src="https://user-images.githubusercontent.com/89605624/210242064-bb10e448-f53b-40b9-b413-aae180460595.png" width="5" height="1"/></a>
+<a href="https://discord.gg/2AZjNXvZBc"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=ffffff"></a>
 </div>
 
 ---
@@ -24,7 +24,7 @@ This project was made for educational purposes and personal use. By using our se
 
 ## <a id="discord"></a>👾 〢 Discord
 
-### https://discord.gg/luno
+### https://discord.gg/2AZjNXvZBc
 Discord Server for Questions, Support, Premium versions and more!
 
 ---
@@ -83,7 +83,7 @@ Motherboard: Any
 
 ## <a id="download"></a>📁 〢 Download
 
-Our free release can be downloaded [Here](https://github.com/Carbon-Community-Official/Valorant-External/releases/tag/Release), we host regular giveaways & offer free trials in our [Discord Server](https://discord.gg/luno)
+Our free release can be downloaded [Here](https://github.com/Carbon-Community-Official/Valorant-External/releases/tag/Release), we host regular giveaways & offer free trials in our [Discord Server](https://discord.gg/2AZjNXvZBc)
 
 ---
 
