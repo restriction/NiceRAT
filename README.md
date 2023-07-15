@@ -1,4 +1,4 @@
-# VALORANT ETERNAL 🌌
+# VALORANT LUNO.PW 🌌
 
 <div align="left">
 <a href="https://github.com/"><img src="https://img.shields.io/github/stars/Eternal-Official/Valorant-Eternal?color=00dd00&style=for-the-badge"></a>
