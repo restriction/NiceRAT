@@ -1,4 +1,4 @@
-![](https://github.com/Luno-projects/Valorant-External/blob/main/LUNO.PW_logo_2_.gif)
+![](https://github.com/Luno-projects/Valorant-External/blob/main/full.png)
 
 # VALORANT LUNO.PW 🌌
 
