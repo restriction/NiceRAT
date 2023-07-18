@@ -1,3 +1,5 @@
+![](https://github.com/Luno-projects/Valorant-External/blob/main/LUNO.PW_logo_2_.gif)
+
 # VALORANT LUNO.PW 🌌
 
 <div align="left">
