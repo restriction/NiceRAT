@@ -15,7 +15,7 @@
 This project was made for educational purposes and personal use. By using our services you agree that you hold responsibility, liability and accountability of any consequences caused by your actions.
    
 ---
-
+ 
 ## 🌐 〢 Index
 - [👾・Discord](#discord)
 - [🌌・Overview](#overview)
