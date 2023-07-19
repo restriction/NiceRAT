@@ -9,8 +9,6 @@
 </div>
 
 ---
-   
----
  
 ## 🌐 〢 Index
 - [👾・Discord](#discord)
