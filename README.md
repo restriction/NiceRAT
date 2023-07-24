@@ -8,7 +8,7 @@
 <a href="https://discord.gg/2AZjNXvZBc"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=ffffff"></a>
 </div>
           
----  
+---   
  
 ## 🌐 〢 Index
 - [👾・Discord](#discord)
