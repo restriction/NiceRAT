@@ -1,6 +1,6 @@
 ![](https://github.com/Luno-projects/Valorant-External/blob/main/full.png)
                 
-# VALORANT LUNO                            
+# VALORANT LUNO                             
           
 <div align="left"> 
 <a href="https://github.com/"><img src="https://img.shields.io/github/stars/Eternal-Official/Valorant-Eternal?color=00dd00&style=for-the-badge"></a>
