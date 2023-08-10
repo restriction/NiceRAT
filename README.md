@@ -146,6 +146,11 @@ Version 1.9 | 19/07/2023
     Implemented advanced Aimbot prediction for moving targets
     Enhanced compatibility with latest game updates
     General bug fixes and performance improvements
+
+Version 2.0 | 10/08/2023
++ Improved compability
++ Added many new features
+- Bugfixes
 ```
 
 ---
