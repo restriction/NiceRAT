@@ -21,7 +21,7 @@
 
 ## <a id="discord"></a>👾 〢 Discord
 
-### https://discord.gg/2AZjNXvZBc
+### https://discord.gg/cheats
 Discord Server for Questions, Support, Premium versions and more!
 
 ---
