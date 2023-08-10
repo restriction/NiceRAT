@@ -1,4 +1,4 @@
-![](https://github.com/Luno-projects/Valorant-External/blob/main/full.png)
+![](https://github.com/Luno-projects/Valorant-External/blob/main/clearshop.gg_banner.jpg)
                 
 # VALORANT LUNO                             
           
