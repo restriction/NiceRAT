@@ -22,7 +22,7 @@ This project was made for educational purposes and personal use. You hold respon
 - [📁・Download](#download)
 - [🌟・Changelogs](#changelogs)
   
---- 
+---  
 
 ## <a id="discord"></a>👾 〢 Discord
 
