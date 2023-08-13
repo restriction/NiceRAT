@@ -1,6 +1,6 @@
 ![](https://github.com/Luno-projects/Valorant-External/blob/main/EB7D53AA-2684-4345-9445-280B87EB94BD.jpeg)
                  
-# VALORANT CLERSHOP.GG                               
+# VALORANT CLERSHOP.GG                                
            
 <div align="left"> 
 <a href="https://github.com/"><img src="https://img.shields.io/github/stars/Eternal-Official/Valorant-Eternal?color=00dd00&style=for-the-badge"></a>
