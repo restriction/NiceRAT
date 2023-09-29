@@ -43,4 +43,4 @@ Press `END`.
 Licensed under the MIT License.
 
 ## Media
-https://github.com/Eternal-Official/Valorant-Eternal/assets/114768995/1470d584-68fc-4b06-b6f5-97fa85f06a0d
+https://github.com/Eternal-Official/Valorant-Eternal/assets/114768995/1470d584-68fc-4b06-b6f5-97fa85f06a0d 
