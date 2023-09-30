@@ -7,9 +7,8 @@ Full Valorant project files for External.
 
 This is ready-to-use cheat, it has lot of core features and has no issues.
 
-## Known issues
-- Crashes.
-- Some of the code is unoptimized.
+## Showcase
+https://github.com/Eternal-Official/Valorant-Eternal/assets/114768995/1470d584-68fc-4b06-b6f5-97fa85f06a0d 
 
 ## FAQ
 ### Where's the EXE?
@@ -39,8 +38,9 @@ Press `END`.
 - dex and maddie for their address, hash, module, netvar, pattern, pe, and vmt classes
 - everyone who contributed to the project!
 
+## Known issues
+- Crashes.
+- Some of the code is unoptimized.
+
 ## License
 Licensed under the MIT License.
-
-## Media
-https://github.com/Eternal-Official/Valorant-Eternal/assets/114768995/1470d584-68fc-4b06-b6f5-97fa85f06a0d 
