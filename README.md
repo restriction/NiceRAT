@@ -5,7 +5,7 @@
 ## Preface
 Full Valorant project files for deadcell.
 
-This is ready-to-use cheat, it has lot of core features and has no issues. Still it is highly recommended that you do not use this if you have no prior programming knowledge or a lack of game hacking knowledge in general.
+This is ready-to-use cheat, it has lot of core features and has no issues.
 
 ## Known issues
 - Crashes.
