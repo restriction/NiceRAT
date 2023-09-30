@@ -41,7 +41,6 @@ Press `END`.
 - everyone who contributed to the project!
 
 ## Known issues
-- Crashes.
 - Some of the code is unoptimized.
 
 ## License
