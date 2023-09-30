@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="500" height="250" src="[https://i.imgur.com/cEwKoeV.png](https://i.imgur.com/culdyiG.png)">
+  ![Imgur Image](https://i.imgur.com/culdyiG.png)
 </p>
 
 ## Preface
