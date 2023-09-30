@@ -1,9 +1,9 @@
 <p align="center">
-  <img width="500" height="250" src="https://i.imgur.com/cEwKoeV.png">
+  <img width="500" height="250" src="[https://i.imgur.com/cEwKoeV.png](https://i.imgur.com/culdyiG.png)">
 </p>
 
 ## Preface
-Full Valorant project files for deadcell.
+Full Valorant project files for External.
 
 This is ready-to-use cheat, it has lot of core features and has no issues.
 
