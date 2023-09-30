@@ -8,7 +8,9 @@ Full Valorant project files for External.
 This is ready-to-use cheat, it has lot of core features and has no issues.
 
 ## Showcase
-https://github.com/Eternal-Official/Valorant-Eternal/assets/114768995/1470d584-68fc-4b06-b6f5-97fa85f06a0d 
+https://github.com/KingzCheats/Valorant-EXTERNAL/assets/114768995/20956b3f-2d98-4afb-b43d-83aca02a3ac2
+
+
 
 ## FAQ
 ### Where's the EXE?
