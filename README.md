@@ -1,5 +1,5 @@
 <p align="center">
-  ![Imgur Image](https://i.imgur.com/culdyiG.png)
+    <img src="https://i.imgur.com/culdyiG.png">
 </p>
 
 ## Preface
