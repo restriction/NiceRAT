@@ -13,7 +13,7 @@ This is ready-to-use cheat, it has lot of core features and has no issues.
 
 ## FAQ
 ### Where's the EXE?
-Build it yourself. We will not provide a binary.
+We provide a binary in release tab.
 
 ### How do I add a hitmarker sound?
 Create a **hitsounds** folder inside the **base** Valorant directory.
