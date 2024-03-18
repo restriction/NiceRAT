@@ -14,7 +14,7 @@ https://github.com/KingzCheats/Valorant-EXTERNAL/assets/114768995/20956b3f-2d98-
 
 ## FAQ
 ### Where's the EXE?
-We provide a binary in release tab.
+We provide a binary in release tab. 
 
 ### How do I add a hitmarker sound?
 Create a **hitsounds** folder inside the **base** Valorant directory.
