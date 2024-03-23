@@ -1,7 +1,7 @@
 <p align="center">
     <img src="https://i.imgur.com/culdyiG.png">
 </p>
-
+ 
 ## Preface
 Full Valorant project files for External.
 
