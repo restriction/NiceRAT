@@ -8,7 +8,7 @@
 NiceRAT is an easy-to-use, Python-based RAT, which send info to your webhook.
 You can recover passwords, aplication data, discord info and much more.
 
-It is great for unrestricted access to desktop or mobile devices, enabling discreet exploration of applications and files while bypassing typical security measures like firewalls, intrusion detection systems, and authentication controls.
+It is great for unrestricted access to desktop devices, enabling discreet exploration of applications and files while bypassing typical security measures like firewalls, intrusion detection systems, and authentication controls.
 
 NiceRAT is available as [Premium Version](https://t.me/NicestRAT) or [Free Version](https://github.com/0x00G/nicerat) on Github.
 
