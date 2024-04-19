@@ -1,7 +1,7 @@
 <a href="http://nicerat.com/#about">
   <img src="https://raw.githubusercontent.com/0x00G/NiceRAT/main/img/github_nr.png"  
     width="200" align="right" alt="Try online!" />
-</a>
+</a> 
 
 # NiceRAT
 
