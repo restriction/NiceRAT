@@ -125,7 +125,7 @@ label = ctk.CTkLabel(master=app, image=telegram, text='',  fg_color="#F8F8F8")
 label.place(relx=0.5, rely=0.8, anchor=ctk.CENTER)
 label.bind("<Button-1>", open_web_link)
 
-telegram = ctk.CTkImage(light_image=Image.open(os.path.join("img\\discord.png")), size=(25 , 25))
+telegram = ctk.CTkImage(light_image=Image.open(os.path.join("img\\github.png")), size=(25 , 25))
 label = ctk.CTkLabel(master=app, image=telegram, text='',  fg_color="#F8F8F8")
 label.place(relx=0.7, rely=0.8, anchor=ctk.CENTER)
 label.bind("<Button-1>", open_github_link)
