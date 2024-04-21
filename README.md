@@ -68,6 +68,12 @@ builder.bat
 The GUI is now available on screen.
 Note: NiceGUI will automatically reload CFG if you change values.
 
+## GUI
+
+<div align="center">
+    <img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="50%" src="https://imgur.com/bM195hY.png"></img>
+</div>
+
 
 ## Documentation and Examples
 
