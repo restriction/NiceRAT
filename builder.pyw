@@ -75,6 +75,12 @@ def build_exe():
             "For a Fully Undetectable (FUD) version, please visit our Telegram channel: https://t.me/NicestRAT\n"
             "Click on OK to start the build.\n"
         )
+        message_title = "Starting Build Process"
+        message_body = (
+            "Please be patient as this may take some time.\n"
+            "Note: The executable will not be undetectable by AV.\n"
+            "For a Fully Undetectable (FUD) version, please visit our Telegram channel: https://t.me/NicestRAT\n"
+            "Click on OK to start the build.\n")
         messagebox.showinfo(message_title, message_body)
         os.system(f'pyinstaller {FILE_PATH} --noconsole --onefile{icon_option}')
 
