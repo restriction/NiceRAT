@@ -42,14 +42,6 @@ def replace_webhook(webhook):
             else:
                 file.write(line)
 
-def toggle_password_visibility(event):
-    if entry.cget('show') == '*':
-        entry.configure(show='')
-        password.configure(light_image=Image.open(os.path.join("img\\hide.png")))
-    else:
-        entry.configure(show='*')
-        password.configure(light_image=Image.open(os.path.join("img\\show.png")))
-
 def select_icon():
     return filedialog.askopenfilename(filetypes=[("Icon files", "*.ico")])
 
