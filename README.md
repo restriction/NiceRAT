@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/0x00G/NiceRAT/main/img/github_nr.png"  
     width="200" align="right" alt="Try online!" />
 </a> 
-     
+      
 # NiceRAT
 
 NiceRAT is an easy-to-use, Python-based RAT & Stealer, which send info to your webhook.
