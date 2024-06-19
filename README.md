@@ -4,7 +4,7 @@
 </a>  
         
 # NiceRAT 
- 
+  
 NiceRAT is an easy-to-use, Python-based RAT & Stealer, which send info to your webhook.
 You can recover passwords, aplication data, discord info and much more.
 
