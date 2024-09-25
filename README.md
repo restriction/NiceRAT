@@ -18,7 +18,7 @@ NiceRAT is available as [Free Version](https://github.com/0x00G/nicerat) on Gith
 [![GitHub issues](https://img.shields.io/github/issues/0x00G/NiceRAT?color=blue)](https://github.com/zauberzeug/nicegui/issues)
 [![GitHub forks](https://img.shields.io/github/forks/0x00G/nicerat)](https://github.com/0x00G/nicerat/network)
 [![GitHub stars](https://img.shields.io/github/stars/0x00G/nicerat)](https://github.com/0x00G/nicerat/stargazers)
- 
+  
 ## Features
 
 - Discord Data
